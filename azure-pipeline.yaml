@@ -70,5 +70,5 @@ stages:
             displayName: 'Azure App Service Deploy: website'
             inputs:
               azureSubscription: 'Service'
-              appName: 'netcg-cg'
+              appName: 'Wincg'
               package: '$(Pipeline.Workspace)/drop/$(buildConfiguration)/*.zip'
